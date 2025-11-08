@@ -35,13 +35,22 @@ Files added:
 - `src/main.jsx`, `src/App.jsx`, `src/index.css` — starter app
 - `.gitignore`
 
-Next steps (optional):
-- Add a homepage or routing
-- Configure automatic deployment (GitHub Pages, Netlify, Vercel)
-- Add TypeScript, tests, or CI workflow
+## Deployed Site
 
-If you'd like, I can also:
-- Add a GitHub Actions workflow to build and deploy to GitHub Pages
-- Convert the project to TypeScript
-- Add a small component library or layout
+🌐 **Live at: https://makimsa.github.io**
+
+The site automatically deploys to GitHub Pages on every push to `main` via GitHub Actions.
+
+## Troubleshooting
+
+If you see a blank page or MIME type errors:
+1. Ensure GitHub Pages source is set to "GitHub Actions" at: https://github.com/makimsa/makimsa.github.io/settings/pages
+2. Check the workflow completed successfully: https://github.com/makimsa/makimsa.github.io/actions
+3. Hard refresh your browser (Cmd+Shift+R on macOS, Ctrl+Shift+R on Windows)
+4. Check browser console (F12) for specific errors
+
+## Next steps (optional):
+- Add a homepage or routing
+- Add TypeScript, tests, or CI workflow
+- Customize styling with Tailwind CSS or a component library
 
